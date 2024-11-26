@@ -1,0 +1,4 @@
+name: aoc
+channels:
+  - conda-forge
+prefix: C:\Users\HLloyd\AppData\Local\mambaforge\envs\aoc3
