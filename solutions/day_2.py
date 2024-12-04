@@ -1,8 +1,8 @@
 #  Clean data
 with open("..\\data\\raw\\day_2.txt", "r") as f:
-    lines = f.readlines()
+    raw_lines = f.readlines()
 
-reports = [[int(r) for r in l.strip("\n").split(" ")] for l in lines]
+reports = [[int(r) for r in l.strip("\n").split(" ")] for l in raw_lines]
 
 # Pt 1
 def classify_report(report: list, problem_damper: bool=False) -> bool:
